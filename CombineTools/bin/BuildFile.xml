@@ -1,28 +1,4 @@
-<bin file="Example1.cpp" name="Example1"></bin>
-<bin file="Example2.cpp" name="Example2"></bin>
-<bin file="Example3.cpp" name="Example3"></bin>
-<bin file="GamGamExample.cpp" name="GamGamExample"></bin>
-<bin file="ImpactsTable.cpp" name="ImpactsTable"></bin>
-<bin file="LimitCompare.cpp" name="LimitCompare"></bin>
-<bin file="MSSMExample.cpp" name="MSSMExample"></bin>
-<bin file="MSSMUpdate.cpp" name="MSSMUpdate"></bin>
-<bin file="MSSMYieldTable.cpp" name="MSSMYieldTable"></bin>
-<bin file="MSSMtauptYieldTable.cpp" name="MSSMtauptYieldTable"></bin>
-<bin file="NuisanceSummary.cpp" name="NuisanceSummary"></bin>
-<bin file="Plot1DScan.cpp" name="Plot1DScan"></bin>
-<bin file="PlotMassScan.cpp" name="PlotMassScan"></bin>
-<bin file="PlotTest.cpp" name="PlotTest"></bin>
-<bin file="PostFitPlot2.cpp" name="PostFitPlot2"></bin>
-<bin file="PostFitShapes.cpp" name="PostFitShapes"></bin>
-<bin file="PostFitShapesFromWorkspace.cpp" name="PostFitShapesFromWorkspace"></bin>
-<bin file="PrePost.cpp" name="PrePost"></bin>
-<bin file="PrintPulls.cpp" name="PrintPulls"></bin>
-<bin file="RoundTrip.cpp" name="RoundTrip"></bin>
-<bin file="SBWeighted.cpp" name="SBWeighted"></bin>
-<bin file="SMLegacyExample.cpp" name="SMLegacyExample"></bin>
-<bin file="SOBPlot.cpp" name="SOBPlot"></bin>
-<bin file="YieldTable.cpp" name="YieldTable"></bin>
-<bin file="hzz4l.cpp" name="hzz4l"></bin>
+<flags SKIP_FILES="$$(shell make -f ${CMSSW_BASE}/src/CombineHarvester/CombineTools/makeGitVersion)"/>
 <use name="root"/>
 <use name="rootmath"/>
 <use name="roofit"/>
@@ -37,3 +13,13 @@
 <use name="boost_regex"/>
 <use name="rootpy"/>
 <use name="CombineHarvester/CombineTools"/>
+<bin file="PostFitShapesFromWorkspace.cpp" name="PostFitShapesFromWorkspace"></bin>
+<bin file="ZtautauInclusive.cpp" name="ZtautauInclusive"></bin>
+<bin file="ZtautauExclusive.cpp" name="ZtautauExclusive"></bin>
+<bin file="ZtautauInclusive_Embedding.cpp" name="ZtautauInclusiveEmbedding"></bin>
+<bin file="ZtautauExclusive_Embedding.cpp" name="ZtautauExclusiveEmbedding"></bin>
+<bin file="ParallelSutdiesForttbar_ZtautauInclusive.cpp" name="ParallelSutdiesForttbar_ZtautauInclusive"></bin>
+<export>
+  <lib name="1"/>
+  </export>
+
