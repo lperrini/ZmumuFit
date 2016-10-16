@@ -30,7 +30,7 @@ int main() {
 	// Here we will just define two categories for an 8TeV analysis. Each entry in
 	// the vector below specifies a bin name and corresponding bin_id.
 	VString chns = {"mm"};
-        VString embs = {"_mt_EB"};
+        VString embs = {"_et_EB"};
 
 map<string, VString> bkg_procs;
 bkg_procs["mm"] = {"W", "QCD", "ZTT", "TT", "VV", "VBFH125", "GGH125","EWKW"};

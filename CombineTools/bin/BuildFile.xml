@@ -18,7 +18,6 @@
 <bin file="ZtautauExclusive.cpp" name="ZtautauExclusive"></bin>
 <bin file="ZtautauInclusive_Embedding.cpp" name="ZtautauInclusiveEmbedding"></bin>
 <bin file="ZtautauExclusive_Embedding.cpp" name="ZtautauExclusiveEmbedding"></bin>
-<bin file="ParallelSutdiesForttbar_ZtautauInclusive.cpp" name="ParallelSutdiesForttbar_ZtautauInclusive"></bin>
 <export>
   <lib name="1"/>
   </export>
